@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css'/>
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js'></script>
+  <script src='/js/prefix.js'></script>
+  <script src='/js/main.js'></script>
+  <script src='/js/class.js'></script>
+  <title>두드립와이프리</title>
+</head>
+<body>
+  <!-- 스킵네비게이션 시작 -->
+  <ul id="skip_nav">
+    <li><a href="#;" title="메뉴바로가기">메뉴바로가기</a></li>
+    <li><a href="#;" title="본문바로가기">본문바로가기</a></li>
+    <li><a href="#;" title="하단바로가기">하단바로가기</a></li>
+  </ul>
+  <!-- 스킵네비게이션 끝 -->
+  <!-- 헤더 시작 -->
+  <header id="header_wrap">
+    <div id="header_inner">
+      <h1 id="logo">
+        <a href="/index.html" title="홈화면바로가기">
+          <img src="/images/header_logo.png" alt="두드립와이로고">
+        </a>
+        <span class="hidden">두드립와이</span>
+      </h1>
+      <nav id="mainmenu">
+        <h2 class="hidden">메인상단영역</h2>
+        <ul id="mainmenu_list">
+          <li><a href="#;" title="브랜드영역바로가기">BRAND</a></li>
+          <li><a href="#;" title="가이드영역바로가기">GUIDE</a></li>
+          <li><a href="#;" title="스토어영역바로가기">STORE</a></li>
+          <li><a href="#;" title="커뮤니티영역바로가기">COMMUNITY</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="menu_icon h_icon"><a href="#;" title="메뉴영역열기"><i class="fas fa-bars"></i></a></div>
+    <nav id="open_menu">
+      <h2 class="hidden">열린메뉴영역</h2>
+      <div class="menu_inner">
+        <div class="menu_left">
+          <ul class="menu_list">
+            <li><a href="#;" title="회사소개페이지바로가기"><span>A</span>bout</a></li>
+            <li><a href="#;" title="프로젝트페이지바로가기"><span>W</span>orks</a></li>
+            <li><a href="#;" title="회사정보페이지바로가기"><span>C</span>ontact</a></li>
+          </ul>
+          <div class="menubg_area"></div>
+          <ul class="sns_list">
+            <li><a href="#;" title="페이스북바로가기">Facebook.</a></li>
+            <li><a href="#;" title="인스타그램바로가기">Instagram.</a></li>
+            <li><a href="#;" title="트위터바로가기">Twitter.</a></li>
+            <li><a href="#;" title="유튜브바로가기">Youtube.</a></li>
+          </ul>
+        </div>
+        <div class="menu_right">
+          <div class="favorit_wrap">
+            <p class="menu_title">Community story</p>
+            <ul class="favorit_list">
+              <li><a href="#;" title="유저1프로필보기"><img src="/images/girl.png" alt="유저1프로필"></a></li>
+              <li><a href="#;" title="유저2프로필보기"><img src="/images/man.png" alt="유저2프로필"></a></li>
+              <li><a href="#;" title="유저3프로필보기"><img src="/images/man2.png" alt="유저3프로필"></a></li>
+            </ul>
+          </div>
+          <div class="customer_wrap">
+            <p class="menu_title">Customer service</p>
+            <ul class="customer_list">
+              <li><a href="#;" title="마이페이지바로가기"><i class="fas fa-arrow-up"></i> My Page</a></li>
+              <li><a href="#;" title="예약페이지바로가기"><i class="fas fa-arrow-up"></i> Reserve</a></li>
+              <li><a href="#;" title="장바구니바로가기"><i class="fas fa-arrow-up"></i> Cart</a></li>
+              <li><a href="#;" title="고객센터바로가기"><i class="fas fa-arrow-up"></i> Customer</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="search_icon h_icon"><a href="#;" title="검색영역열기"><i class="fas fa-search"></i></a></div>
+    <div class="search_openbox">
+      <input title="검색" type="search" placeholder="Please enter your search term">
+      <button type="button" title="검색버튼" onclick=";"><i class="fas fa-search"></i></button>
+    </div>
+  </header>
+  <!-- 헤더 끝 -->
+  <!-- 비주얼 시작 -->
+  <section id="visual_wrap">
+    <h2 class="hidden">메인비주얼영역</h2>
+    <div id="vid_wrap">
+      <video id="main_vid" title="커피인트로동영상" width="1920" height="1080" preload="auto" autoplay muted>
+        <source src="/images/vid/main_vid01.mp4" type="video/mp4">
+        <source src="/images/vid/main_vid01.webm" type="video/webm">
+        <source src="/images/vid/main_vid01.ogv" type="video/ogv"> 
+      </video>
+    </div>
+    <div id="vis_text_wrap">
+      <p class="vis_title">나만의<span class="yellow">커피를</span>내리다</p>
+      <p class="vis_text t1">아라비카 100% 신선한 원두</p>
+      <p class="vis_text t2">누구나 쉽게 따라할 수 있는 가이드</p>
+      <p class="vis_text t3">나만의 스타일로 내린 커피</p>
+    </div>
+  </section>
+  <!-- 비주얼 끝 -->
+  <!-- 컨텐츠 시작 -->
+    <section id="contents_wrap">
+      <h2 class="hidden">본문영역</h2>
+      <!-- 브랜드 -->
+      <section id="brand_wrap">
+        <h3 class="hidden">브랜드영역</h3>
+        <aside class="aside_menu brand_menu">
+          <h4 class="hidden">브랜드메뉴</h4>
+          <p class="aside_title brand_title">Brand</p>
+          <ul class="aside_menu_list brand_menu_list">
+            <li><a class="selected" href="#;" title="스토리영역바로가기">Story</a></li>
+            <li><a href="#;" title="아이덴티티영역바로가기">Identity</a></li>
+          </ul>
+        </aside>
+        <section class="brand_body">
+          <h4 class="hidden">브랜드본문</h4>
+          <section class="brand_story">
+            <h5 id="title_story" class="page_title">Story</h5>
+            <ul class="story_list">
+              <li>
+                <p class="story_img fl"><img src="/images/story_space.gif" alt="카페내부사진"></p>
+                <p class="story_title fl">&ldquo; 경험,공간 &rdquo;</p>
+                <p class="story_text fl">&apos;많은 사람들이 간단한 체험으로 부담 없이커피를 직접 경험하고 느낄 수 있게 하자&apos;는 마음으로 문을 연 카페 &apos;DodripY&apos;는 편안한 분위기에서 커피를 느끼 고, 마시고,  쉴 수 있는 공간을 제공하기 위해 노력합니다.</p>
+              </li>
+              <li>
+                <p class="story_img fr"><img src="/images/story_exper.gif" alt="커피핸드드립사진"></p>
+                <p class="story_title fr">&ldquo; 부담없는 체험 &rdquo;</p>
+                <p class="story_text fr">집에서도 쉽게 따라 할 수 있도록 Dripbag 을 이용한 간단한 Hand drip부터 다양한 기구,방법들을 이용한 Hand drip까지 처음 경험하는 사람도 정해진 가이드에 맞춰서 쉽게 따라 할 수 있도록 구성하여 누구나 따라 할 수 있는 부담 없는 체험을 제공하기 위해 노력합니다.</p>
+              </li>
+              <li>
+                <p class="story_img fl"><img src="/images/story_blend.gif" alt="원두로스팅사진"></p>
+                <p class="story_title fl">&ldquo; 시그니처 블렌딩 &rdquo;</p>
+                <p class="story_text fl">5가지 아라비카 100&#37; 원두를 DodripY만의 최적의 배합 비율로 블렌딩하여 가장 맛있는 커피 맛을 구현하였습니다. 또한 신선한 원두만을 사용하기 때문에 그 향과 맛을 그대로 살릴 수 있는 태우지 않는 미디엄 로스팅 방식을 고수합니다.</p>
+              </li>
+              <li>
+                <p class="story_img fr"><img src="/images/story_reserve.gif" alt="예약하는남자사진"></p>
+                <p class="story_title fr">&ldquo; 간편한 예약 시스템 &rdquo;</p>
+                <p class="story_text fr">효율적인 Handdrip 체험 예약을 위해 현재 예약 현황을 바로 알 수 있도록 POS와 연동 시스템을 구축하여 PC, Mobile, 전화예약 통합관리가 가능합니다. 지금 바로 예약해 보세요!</p>
+              </li>
+            </ul>
+         </section>
+         <section class="brand_identity">
+           <h5 id="title_identity" class="page_title">Identity</h5>
+           <p class="logotext">메인 컬러인 소프트 블랙과 포인트 컬러인 골드를 사용하여 고급스럽고 세련된 디자인을 추구합니다.</p>
+           <p class="logo_img"><img src="/images/identity_logo.png" alt="아이덴티티로고"></p>
+           <ul class="color_list">
+             <li>
+               <p class="color_bg basis_c"></p>
+               <p class="color_title">#434343<br>Basis_Color</p>
+               <p class="color_text">CMYK &nbsp;&nbsp;76 / 70 / 67 / 31<br>RGB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;67 / 67 / 67</p>
+             </li>
+             <li>
+               <p class="color_bg point_c"></p>
+               <p class="color_title">#efc159<br>Point_Color</p>
+               <p class="color_text">CMYK &nbsp;&nbsp;36 / 39 / 64 / 0<br>RGB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;183 / 158 / 102</p>
+             </li>
+             <li>
+               <p class="color_bg bg_c"></p>
+               <p class="color_title">#000000<br>Backgroud_Color</p>
+               <p class="color_text">CMYK &nbsp;&nbsp;93 / 88 / 89 / 80<br>RGB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 / 0 / 0</p>
+             </li>
+             <li>
+               <p class="color_bg bg2_c"></p>
+               <p class="color_title">#ffffff<br>Backgroud_Color</p>
+               <p class="color_text">CMYK &nbsp;&nbsp;0 / 0 / 0 / 0<br>RGB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;255 / 255 / 255</p>
+             </li>
+           </ul>
+         </section>
+         <div id="scroll_icon"></div>
+        </section>
+        <div id="parallax_wrap">
+          <div class="parallax_top"></div>
+          <div class="parallax_water"></div>
+          <div class="parallax_bottom"></div>
+          <div class="parallax_drop"></div>
+          <div class="parallax_coffee"></div>
+        </div>
+      </section>
+      <!-- 가이드 -->
+      <section id="guide_wrap">
+        <h3 class="hidden">가이드영역</h3>
+        <aside class="aside_menu">
+          <h4 class="hidden">가이드메뉴</h4>
+          <p class="guide_title">Guide</p>
+          <ul class="guide_menu_list">
+            <li><a href="#;" title="입문가이드리스트보이기">for beginners</a></li>
+            <li><a class="selected" href="#;" title="초급가이드리스트보이기">middle guide</a></li>
+            <li><a href="#;" title="중급가이드리스트보이기">high guide</a></li>
+            <li><a href="#;" title="응용가이드스트보이기">expert guide</a></li>
+          </ul>
+        </aside>
+        <section class="guide_body">
+          <h4 class="hidden">가이드본문</h4>
+          <div class="guide_vids">
+            <ul class="guide_list">
+              <li>
+                <ul class="subguide_list beginner_list">
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="입문가이드동영상1"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="입문가이드동영상2"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="입문가이드동영상3"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="입문가이드동영상4"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="입문가이드동영상5"></a></li>
+                </ul>
+              </li>
+              <li class="active">
+                <ul class="subguide_list middel_list">
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="초급가이드동영상1"></a></li>
+                  <li class="selected">
+                      <div class="guide_vid_wrap">
+                        <embed alt="초급가이드동영상2" width="1920" height="1080" src="https://www.youtube.com/embed/ptTYTadBBNI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
+                      </div>
+                  </li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="초급가이드동영상3"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="초급가이드동영상4"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="초급가이드동영상5"></a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="subguide_list high_list">
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="중급가이드동영상1"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="중급가이드동영상2"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="중급가이드동영상3"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="중급가이드동영상4"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="중급가이드동영상5"></a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="subguide_list expert_list">
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="응용가이드동영상1"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="응용가이드동영상2"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="응용가이드동영상3"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="응용가이드동영상4"></a></li>
+                  <li><a href="#;"><img src="/images/vid_img.gif" alt="응용가이드동영상5"></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>      
+          <div id="guide_bg">
+            <div class="guide_btn up_btn"><a href="#;" title="이전가이드영역이동버튼"><i class="fas fa-caret-up"></i></a></div>
+            <div class="guide_btn down_btn"><a href="#;" title="다음가이드영역이동버튼"><i class="fas fa-caret-down"></i></a></div>
+            <div class="guide_btn left_btn"><a href="#;" title="이전동영상이동버튼"><i class="fas fa-caret-left"></i></a></div>
+            <div class="guide_btn right_btn"><a href="#;" title="다음동영상이동버튼"><i class="fas fa-caret-right"></i></a></div>
+          </div>
+        </section>
+      </section>
+      <section id="store_wrap">
+        <h3 class="hidden">스토어영역</h3>
+        <aside class="aside_menu store_menu">
+          <h4 class="hidden">스토어메뉴</h4>
+          <p class="aside_title store_title">Store</p>
+          <ul class="aside_menu_list store_menu_list">
+            <li><a class="selected" href="#;" title="신상품영역보이기">New</a></li>
+            <li><a href="#;" title="베스트상품영역보이기">Best</a></li>
+            <li><a href="#;" title="인기상품영역보이기">Hot</a></li>
+            <li><a href="#;" title="모든상품영역보이기">All products</a></li>
+          </ul>
+        </aside>
+        <section class="store_body">
+          <h4 class="hidden">스토어본문</h4>
+          <!-- load store -->
+        </section>
+        <div id="drag_icon"></div>
+        <div id="store_pop_wrap">
+          <div class="store_pop_contents">
+            <p class="store_pop_img"><img src="/images/popupproduct.png" alt="브랜드없는원두봉투"></p>
+            <p class="store_pop_title"><a href="#;" title="커피로스팅체험페이지이동">Make your own coffeebean!</a></p>
+            <p class="store_pop_text"><a href="#;" title="커피로스팅체험페이지이동">It&apos;s gonna be your only one bean.</a></p>
+            <div id="pop_close_btn"><a href="#;" title="팝업닫기"><i class="fas fa-times"></i></a></div>
+          </div>
+        </div>
+      </section>
+      <section id="community_wrap">
+        <h3 class="hidden">커뮤니티영역</h3>
+        <aside class="community_menu aside_menu">
+          <h4 class="hidden">커뮤니티메뉴</h4>
+          <p class="community_title aside_title">Community</p>
+          <ul class="community_menu_list aside_menu_list">
+            <li><a class="selected" href="#;" title="공지사항과뉴스영역보이기">Notice &amp; News</a></li>
+            <li><a href="#;" title="레시피와팁영역보이기">Recipe &amp; Tips</a></li>
+            <li><a href="#;" title="질문답변영역보이기">Q&amp;A</a></li>
+            <li><a href="#;" title="채팅영역보이기">Chat</a></li>
+          </ul>
+        </aside>
+        <section class="community_body">
+          <h4 class="hidden">커뮤니티본문</h4>
+          <!-- load community -->
+        </section>
+      </section>
+    </section>
+  <!-- 컨텐츠 끝 -->
+  <!-- 푸터 시작 -->
+  <footer id="footer_wrap">
+    <h2 class="hidden">푸터영역</h2>
+    <div class="footer_inner">
+      <section class="footer_inner_top">
+        <h3 class="hidden">두드립와이정보</h3>
+        <ul class="footer_list">
+          <li>About
+            <ul class="footer_sublist">
+              <li><a href="#;" title="스토리페이지이동">Story</a></li>
+              <li><a href="#;" title="아이덴티티페이지이동">Identity</a></li>
+            </ul>
+          </li>
+          <li>Works
+            <ul class="footer_sublist">
+              <li><a href="#;" title="가이드페이지이동">Guide</a></li>
+              <li><a href="#;" title="스토어페이지이동">Store</a></li>
+              <li><a href="#;" title="커뮤니티페이지이동">Community</a></li>
+            </ul>
+          </li>
+          <li>Contact
+            <ul class="footer_sublist">
+              <li><a href="#;" title="주소정보페이지이동">Address</a></li>
+              <li><a href="#;" title="이메일정보페이지이동">E-mail</a></li>
+              <li><a href="#;" title="전화번호정보페이지이동">Phone</a></li>
+            </ul>
+          </li>
+          <li>SNS
+            <ul class="footer_sns_list">
+              <li><a href="#;" title="페이스북이동"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#;" title="인스타그램이동"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#;" title="트위터이동"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#;" title="유튜브이동"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="footer_inner_bottom">
+        <h3 class="hidden">카피라이트</h3>
+        <p class="footer_copy">Copyright 2020 DodripY All Rights Reserved.</p>
+        <p class="footer_logo"><img src="/images/header_logo.png" alt="두드립와이로고"></p>
+      </section>
+    </div>
+  </footer>
+  <!-- 푸터 끝 -->
+</body>
+</html>

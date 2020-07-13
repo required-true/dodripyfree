@@ -1,0 +1,72 @@
+.store_swiper0 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top:200px;
+}
+.store_swiper2{
+  width:300px;
+  height:420px;
+  position:absolute;
+  left:40%;
+  top:35%;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+  border:3px solid #ccc;
+  transition:0.2s ease;
+}
+:root {
+  --swiper-theme-color: rgba(0,0,0,0.5);
+  --swiper-navigation-size: 22px;
+}
+.store_img {
+  width:300px; height:300px; margin:0px auto;
+}
+.swiper-slide-active{
+  margin-top:-50px;
+}
+.swiper-slide:nth-child(1) .store_img {
+  background:url("/images/wholebean.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(2) .store_img {
+  background:url("/images/dripbag00.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(3) .store_img {
+  background:url("/images/dripbag01.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(4) .store_img {
+  background:url("/images/wholebean.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(5) .store_img {
+  background:url("/images/dripbag00.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(6) .store_img {
+  background:url("/images/dripbag01.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(7) .store_img {
+  background:url("/images/wholebean.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(8) .store_img {
+  background:url("/images/dripbag00.png")no-repeat center / cover;
+}
+.swiper-slide:nth-child(9) .store_img {
+  background:url("/images/dripbag01.png")no-repeat center / cover;
+}
+.swiper-slide .store_title {
+  text-align:center;
+}
+.swiper-slide .store_title a {
+  font:normal 16px/40px "Noto Sans KR"; color:black;
+}
+.swiper-slide .store_text {
+  text-align:center;
+}
+.swiper-slide .store_text a {
+  font:bold 16px/40px "Noto Sans KR"; color:black;
+}
