@@ -343,7 +343,7 @@ function storePageEffect(){
   var currentScroll;
   var isOpen=false;
 
-  $(".store_body").load("/load/store00.html");
+  $(".store_body").load("../load/store00.html");
 
   $(window).on("scroll",onscroll);
   $closeBtn.on("click",closePopup);
@@ -366,14 +366,14 @@ function storePageEffect(){
     storeMenuIndex=$storeMenuLiA.index($(this));
     $storeMenuLiA.removeClass("selected");
     $storeMenuLiA.eq(storeMenuIndex).addClass("selected");
-    $(".store_body").load("/load/store0"+storeMenuIndex+".html");
+    $(".store_body").load("../load/store0"+storeMenuIndex+".html");
     $("#drag_icon").show();
   }
 }
 function communityEffect(){
   var $communityList=$(".community_menu_list").children().find("a");
   var communityIndex=0;
-  $(".community_body").load("/load/community00.html");
+  $(".community_body").load("../load/community00.html");
   event();
 
   function event(){
@@ -386,7 +386,7 @@ function communityEffect(){
   function activeCommunityMenu(index){
     $communityList.removeClass("selected");
     $communityList.eq(index).addClass("selected");
-    $(".community_body").load("/load/community0"+index+".html");
+    $(".community_body").load("../load/community0"+index+".html");
   }
 
   // 슬라이드 클래스 만들기 전 코드
