@@ -360,31 +360,31 @@ p.color_text{
   font:normal 24px/30px "Roboto"; color:#434343;
 }
 div#scroll_icon{
-  width:50px; height:100px; position:absolute; left:50%; margin-left:-25px; bottom:50px; ;background:url("./images/scroll_icon.gif")no-repeat;
+  width:50px; height:100px; position:absolute; left:50%; margin-left:-25px; bottom:50px; ;background:url("../images/scroll_icon.gif")no-repeat;
 }
 #parallax_wrap{
   width:400px; height:714px; overflow:hidden; float:right; position:relative; right:0px; top:0px;
 }
 .parallax_top{
-  width:400px; height:129px; position:absolute; right:0px; top:250px; background:url("./images/bg_top.png")no-repeat center/cover; z-index:3;
+  width:400px; height:129px; position:absolute; right:0px; top:250px; background:url("../images/bg_top.png")no-repeat center/cover; z-index:3;
 }
 .parallax_water{
-  width:400px; height:0px; position:absolute; right:0px; top:367px; background:url("./images/bg_water.png")no-repeat center/cover; z-index:6; -webkit-transition:0.3s ease;
+  width:400px; height:0px; position:absolute; right:0px; top:367px; background:url("../images/bg_water.png")no-repeat center/cover; z-index:6; -webkit-transition:0.3s ease;
 }
 .water_selected{
   height:50px;
 }
 .parallax_bottom{
-  width:400px; height:327px; position:absolute; right:0px; top:387px; background:url("./images/bg_bottom.png")no-repeat center/cover; z-index:5;
+  width:400px; height:327px; position:absolute; right:0px; top:387px; background:url("../images/bg_bottom.png")no-repeat center/cover; z-index:5;
 }
 .parallax_drop{
-  width:400px; height:0px; position:absolute; right:0px; top:568px; background:url("./images/bg_drop.png")no-repeat center/cover; -webkit-transition:0.3s ease;
+  width:400px; height:0px; position:absolute; right:0px; top:568px; background:url("../images/bg_drop.png")no-repeat center/cover; -webkit-transition:0.3s ease;
 }
 .drop_selected{
   height:145px;
 }
 .parallax_coffee{
-  width:400px; height:196px; position:absolute; right:0px; top:880px; background:url("./images/bg_coffee.png")no-repeat center/cover;
+  width:400px; height:196px; position:absolute; right:0px; top:880px; background:url("../images/bg_coffee.png")no-repeat center/cover;
 }
 /* 가이드 */
 section#guide_wrap{
@@ -487,7 +487,7 @@ section.store_body{
   width:75.25%; height:100%; position:absolute; right:0px; top:0px;
 }
 div#drag_icon{
-  width:100px; height:100px; position:absolute; left:50%; margin-left:50px; bottom:10%; background:url("./images/drag_icon.gif")no-repeat;
+  width:100px; height:100px; position:absolute; left:50%; margin-left:50px; bottom:10%; background:url("../images/drag_icon.gif")no-repeat;
 }
 div#store_pop_wrap{
   display:none; width:100%; height:100px; position:fixed; left:0px; bottom:-150px; background:#222; z-index:99;
@@ -527,16 +527,16 @@ ul.all_product_list li{
   width:200px; height:275px; float:left;
 }
 p.beans_img{
-  width:200px; height:200px; float:left; background:url("./images/wholebean.png")no-repeat center / cover;
+  width:200px; height:200px; float:left; background:url("../images/wholebean.png")no-repeat center / cover;
 }
 p.product_title{
   width:200px; height:50px; float:left; color:black;
 }
 p.dripbag1_img{
-  width:200px; height:200px; float:left; background:url("./images/dripbag00.png")no-repeat center / cover;
+  width:200px; height:200px; float:left; background:url("../images/dripbag00.png")no-repeat center / cover;
 }
 p.dripbag2_img{
-  width:200px; height:200px; float:left; background:url("./images/dripbag01.png")no-repeat center / cover;
+  width:200px; height:200px; float:left; background:url("../images/dripbag01.png")no-repeat center / cover;
 }
 p.product_title a{
   display:block; width:100%; height:100%; color:black; font:normal 14px/25px "Noto Sans KR"; text-align:center;
@@ -636,7 +636,7 @@ ul.page_btn li:last-child{
   margin-right:0px;
 }
 div.preparing{
-  width:786px; height:467px; margin:168px 200px; background:url("./images/preparing_bg00.jpg"); background-size:cover;
+  width:786px; height:467px; margin:168px 200px; background:url("../images/preparing_bg00.jpg"); background-size:cover;
 }
 .preparing_text{
   width:100%; height:100px; padding-top:100px; color:white; font:bold 24px/36px "Noto Sans KR"; text-align:center;
