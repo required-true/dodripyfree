@@ -527,16 +527,16 @@ ul.all_product_list li{
   width:200px; height:275px; float:left;
 }
 p.beans_img{
-  width:200px; height:200px; float:left; background:url("../images/wholebean.png")no-repeat center / cover;
+  width:200px; height:200px; float:left; background:url("./images/wholebean.png")no-repeat center / cover;
 }
 p.product_title{
   width:200px; height:50px; float:left; color:black;
 }
 p.dripbag1_img{
-  width:200px; height:200px; float:left; background:url("../images/dripbag00.png")no-repeat center / cover;
+  width:200px; height:200px; float:left; background:url("./images/dripbag00.png")no-repeat center / cover;
 }
 p.dripbag2_img{
-  width:200px; height:200px; float:left; background:url("../images/dripbag01.png")no-repeat center / cover;
+  width:200px; height:200px; float:left; background:url("./images/dripbag01.png")no-repeat center / cover;
 }
 p.product_title a{
   display:block; width:100%; height:100%; color:black; font:normal 14px/25px "Noto Sans KR"; text-align:center;
