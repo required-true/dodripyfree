@@ -32,31 +32,31 @@
   margin-top:-50px;
 }
 .swiper-slide:nth-child(1) .store_img {
-  background:url("/images/wholebean.png")no-repeat center / cover;
+  background:url("../images/wholebean.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(2) .store_img {
-  background:url("/images/dripbag00.png")no-repeat center / cover;
+  background:url("../images/dripbag00.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(3) .store_img {
-  background:url("/images/dripbag01.png")no-repeat center / cover;
+  background:url("../images/dripbag01.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(4) .store_img {
-  background:url("/images/wholebean.png")no-repeat center / cover;
+  background:url("../images/wholebean.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(5) .store_img {
-  background:url("/images/dripbag00.png")no-repeat center / cover;
+  background:url("../images/dripbag00.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(6) .store_img {
-  background:url("/images/dripbag01.png")no-repeat center / cover;
+  background:url("../images/dripbag01.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(7) .store_img {
-  background:url("/images/wholebean.png")no-repeat center / cover;
+  background:url("../images/wholebean.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(8) .store_img {
-  background:url("/images/dripbag00.png")no-repeat center / cover;
+  background:url("../images/dripbag00.png")no-repeat center / cover;
 }
 .swiper-slide:nth-child(9) .store_img {
-  background:url("/images/dripbag01.png")no-repeat center / cover;
+  background:url("../images/dripbag01.png")no-repeat center / cover;
 }
 .swiper-slide .store_title {
   text-align:center;
