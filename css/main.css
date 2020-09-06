@@ -54,8 +54,8 @@ input {border:1px solid #ccc; -webkit-box-sizing:border-box; box-sizing:border-b
 .favorit_list li:last-child {margin-right:0px}
 .favorit_list li a {display:block; width:100%; height:100%; position:relative; left:0px; top:0px}
 @-webkit-keyframes rotate {
-  0% {-webkit-transform:rotate(0deg);transform:rotate(0deg)}
-  to {-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+  0% {-webkit-transform:rotate(0deg); transform:rotate(0deg)}
+  to {-webkit-transform:rotate(360deg); transform:rotate(360deg)}
 }
 @keyframes rotate {
   0% {-webkit-transform:rotate(0deg);transform:rotate(0deg)}
@@ -103,17 +103,17 @@ input {border:1px solid #ccc; -webkit-box-sizing:border-box; box-sizing:border-b
 
 /* 컨텐츠 시작 */
 /* 브랜드 */
-#brand_wrap {float:left; position:relative; left:0px; top:0px; width:100%; height:2800px; background:white}
+#brand_wrap {float:left; position:relative; left:0px; top:0px; width:100%; background:white}
 /* 브랜드메뉴 */
-.aside_menu {position:absolute; left:0px; top:0px; width:18.75%; height:100%; margin-right:6%}
+.aside_menu {float:left; width:19%; height:100%}
 .aside_title {position:relative; left:0px; top:0px; margin:80px 0px;; font:normal 72px "Book Antiqua"; text-align:right; color:#121212}
 .aside_title::after {content:""; position:absolute; right:0px; bottom:0px; width:80%; height:3px; background:#121212; border-radius:200px}
 .aside_menu_list {width:100%; height:600px}
-.aside_menu_list li {float:right; width:80%; height:50px; text-align:center}
+.aside_menu_list li {float:right; width:80%; text-align:center}
 .aside_menu_list li a {font:normal 36px "Book Antiqua"; color:#ccc}
 .aside_menu_list li a.selected {color:#121212}
 /* 브랜드본문 */
-.brand_body {position:absolute; left:24.75%; top:0px; width:1000px; height:100%}
+.brand_body {float:left; width:50%; height:100%; padding:0 6%}
 .brand_story {float:left; width:100%}
 .story_list {width:100%}
 .story_list li {float:left; position:relative; left:0px; top:200px; width:100%; height:300px; margin-top:60px; opacity:0}
@@ -130,127 +130,139 @@ input {border:1px solid #ccc; -webkit-box-sizing:border-box; box-sizing:border-b
 .logo_img img {width:50%}
 .color_list {float:left; width:100%}
 .color_list li {float:left; width:50%; margin-top:60px}
-.color_bg {float:left; width:138px; height:138px; margin:20px; border-radius:200px}
+.color_bg {float:left; width:138px; height:138px; margin:20px; border-radius:50%}
 .basis_c {background:#434343}
 .point_c {background:#efc159}
 .bg_c {background:#000}
 .bg2_c {border:1px solid black; background:#fff; -webkit-box-sizing:border-box; box-sizing:border-box}
 .color_title {margin-top:20px; font:bold 24px/30px "Roboto"}
 .color_text {font:normal 24px/30px "Roboto"; color:#434343}
-#scroll_icon {position:absolute; left:50%; bottom:50px; width:50px; height:100px; margin-left:-25px; background:url("../images/scroll_icon.gif")no-repeat}
-#parallax_wrap {overflow:hidden; float:right; position:relative; right:0px; top:0px; width:400px; height:714px}
-.parallax_top {position:absolute; right:0px; top:250px; z-index:3; width:400px; height:129px; background:url("../images/bg_top.png")no-repeat center/cover}
-.parallax_water {position:absolute; right:0px; top:367px; z-index:6; width:400px; height:0px; background:url("../images/bg_water.png")no-repeat center/cover; -webkit-transition:0.3s ease; -o-transition:0.3s ease; transition:0.3s ease}
+#scroll_icon_wrap {float:left; width:100%; height:100px; margin:80px 0 40px 0}
+.scroll_icon {width:50px; height:100px; margin:0 auto; background:url("../images/scroll_icon.gif")no-repeat}
+
+#parallax_wrap {overflow:hidden; float:right; position:relative; right:0px; top:0px; width:19%; height:714px}
+.parallax_top {position:absolute; right:0px; top:250px; z-index:3; width:100%; height:129px; background:url("../images/bg_top.png")no-repeat center/cover}
+.parallax_water {position:absolute; right:0px; top:367px; z-index:6; width:100%; height:0px; background:url("../images/bg_water.png")no-repeat center/cover; -webkit-transition:0.3s ease; -o-transition:0.3s ease; transition:0.3s ease}
 .water_selected {height:50px}
-.parallax_bottom {position:absolute; right:0px; top:387px; z-index:5; width:400px; height:327px; background:url("../images/bg_bottom.png")no-repeat center/cover}
-.parallax_drop {position:absolute; right:0px; top:568px; width:400px; height:0px; background:url("../images/bg_drop.png")no-repeat center/cover; -webkit-transition:0.3s ease; -o-transition:0.3s ease; transition:0.3s ease}
+.parallax_bottom {position:absolute; right:0px; top:387px; z-index:5; width:100%; height:327px; background:url("../images/bg_bottom.png")no-repeat center/cover}
+.parallax_drop {position:absolute; right:0px; top:568px; width:100%; height:0px; background:url("../images/bg_drop.png")no-repeat center/cover; -webkit-transition:0.3s ease; -o-transition:0.3s ease; transition:0.3s ease}
 .drop_selected {height:145px}
-.parallax_coffee {position:absolute; right:0px; top:880px; width:400px; height:196px; background:url("../images/bg_coffee.png")no-repeat center/cover}
+.parallax_coffee {position:absolute; right:0px; top:880px; width:100%; height:196px; background:url("../images/bg_coffee.png")no-repeat center/cover}
 /* 가이드 */
-section#guide_wrap {float:left; position:relative; left:0px; top:0px; z-index:10; width:100%; height:940px; background:black}
+#guide_wrap {float:left; position:relative; left:0px; top:0px; z-index:10; width:100%; height:940px; background:black}
 /* 가이드메뉴 */
-aside.guide_menu {position:absolute; left:0px; top:0px; width:18.75%; height:100%; margin-right:6%}
-p.guide_title {position:relative; left:0px; top:0px; margin:80px 0px; font:normal 72px "Book Antiqua"; text-align:right; color:#ccc}
-p.guide_title::after {content:""; position:absolute; right:0px; bottom:0px; width:80%; height:3px; background:#ccc; border-radius:200px}
-ul.guide_menu_list {width:100%; height:600px}
-ul.guide_menu_list li {float:right; width:80%; height:50px; text-align:center}
-ul.guide_menu_list li a {font:normal 36px "Book Antiqua"; color:#aaa; -webkit-transition:0.1s ease; -o-transition:0.1s ease; transition:0.1s ease}
-ul.guide_menu_list li a.selected {color:white}
+.guide_title {position:relative; left:0px; top:0px; margin:80px 0px; font:normal 72px "Book Antiqua"; text-align:right; color:#ccc}
+.guide_title::after {content:""; position:absolute; right:0px; bottom:0px; width:80%; height:3px; background:#ccc; border-radius:200px}
+.guide_menu_list {width:100%; height:600px}
+.guide_menu_list li {float:right; width:80%; text-align:center}
+.guide_menu_list li a {font:normal 36px "Book Antiqua"; color:#aaa; -webkit-transition:0.1s ease; -o-transition:0.1s ease; transition:0.1s ease}
+.guide_menu_list li a.selected {color:white}
 /* 가이드본문 */
-section.guide_body {overflow:hidden; position:absolute; right:0px; top:0px; width:75.25%; height:940px}
-div.guide_vids {position:absolute; left:0px; top:0px; width:100%; height:100%}
-ul.guide_list {float:left; width:100%; height:30%; margin-top:2.5%}
-ul.guide_list li {float:left; position:relative; left:0px; top:0px; width:100%; height:100%}
-ul.subguide_list {width:166.66%; height:100%}
-ul.subguide_list li {float:left; width:19%; height:100%; margin-right:1%; line-height:33.33%}
-ul.subguide_list li.selected {position:relative; left:0px; top:0px; z-index:9; -webkit-transform:scale(1.1); -ms-transform:scale(1.1); transform:scale(1.1)}
-ul.subguide_list li a {display:-webkit-box;display:-ms-flexbox;display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; -webkit-box-align:center; -ms-flex-align:center; align-items:center; width:100%; height:100%; -webkit-transition:1s ease; -o-transition:1s ease; transition:1s ease}
-ul.subguide_list li a img {vertical-align: middle}
-div.guide_vid_wrap {position:relative; left:0px; top:0px; width:100%; padding-bottom:56.25%}
-div.guide_vid_wrap embed {position:absolute; left:0px; top:0px; width:100%; height:100%}
-div#guide_bg {position:absolute; right:0px; top:0px; width:100%; height:100%; background:rgba(0,0,0,0.95)}
-div.guide_btn {width:100px; height:100px; background:transparent}
-div.guide_btn a {display:-webkit-box;display:-ms-flexbox;display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; -webkit-box-align:center; -ms-flex-align:center; align-items:center; z-index:100; width:100%; height:100%; -webkit-transition:0.2s ease; -o-transition:0.2s ease; transition:0.2s ease}
-div.guide_btn a i {font-size:100px; color:rgb(64, 64, 64)}
-div.guide_btn a:hover i {color:#ccc}
-div.up_btn {position:absolute; left:50%; top:25%; margin-left:-50px}
-div.down_btn {position:absolute; left:50%; bottom:25%; margin-left:-50px}
-div.left_btn {position:absolute; left:23.5%; top:50%; margin-top:-50px}
-div.right_btn {position:absolute; right:25%; top:50%; margin-top:-50px}
+.guide_body {overflow:hidden; float:left; position:relative; left:0; top:0; width:75%; height:100%; margin-left:6%}
+.guide_vids {position:absolute; left:0px; top:0px; width:100%; height:100%}
+.guide_list {width:100%; height:33.33%}
+.guide_list li {float:left; position:relative; left:0px; top:0px; width:100%; height:100%}
+.subguide_list {width:166.66%; height:100%}
+.subguide_list li {float:left; width:19%; height:100%; margin-right:1%}
+.subguide_list li.selected {position:relative; left:0px; top:0px; z-index:9; -webkit-transform:scale(1.1); -ms-transform:scale(1.1); transform:scale(1.1)}
+.subguide_list li a {display:flex; justify-content:center; align-items:center; width:100%; height:100%; -webkit-transition:1s ease; -o-transition:1s ease; transition:1s ease}
+.subguide_list li a img {width:100%}
+.guide_vid_wrap embed {position:absolute; left:0px; top:0px; width:100%; height:100%}
+#guide_bg {position:absolute; width:100%; height:100%; background:rgba(0,0,0,0.95)}
+.guide_btn {position:absolute; width:300px; height:300px; background:transparent}
+.guide_btn a {display:-webkit-box;display:-ms-flexbox;display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; -webkit-box-align:center; -ms-flex-align:center; align-items:center; z-index:100; width:100%; height:100%; text-align:center; -webkit-transition:0.2s ease; -o-transition:0.2s ease; transition:0.2s ease}
+.guide_btn a i {font-size:100px; line-height:100px; color:rgb(64, 64, 64)}
+.guide_btn a:hover i {color:#ccc}
+.up_btn {left:50%; top:0; margin-left:-150px}
+.down_btn {left:50%; bottom:0; margin-left:-150px}
+.left_btn {left:0; top:50%; margin-top:-150px}
+.right_btn {right:0; top:50%; margin-top:-150px}
 /* 스토어  */
-section#store_wrap {float:left; position:relative; left:0px; top:0px; width:100%; height:940px}
+#store_wrap {float:left; position:relative; left:0px; top:0px; width:100%; height:940px}
 /* aside는 공통 */
 /* 가이드 본문 */
-section.store_body {position:absolute; right:0px; top:0px; width:75.25%; height:100%}
-div#drag_icon {position:absolute; left:50%; bottom:10%; width:100px; height:100px; margin-left:50px; background:url("../images/drag_icon.gif")no-repeat}
-div#store_pop_wrap {display:none; position:fixed; left:0px; bottom:-150px; z-index:20; width:100%; height:100px; background:#222}
-div.store_pop_contents {position:relative; left:0px; top:0px; width:350px; height:100%; margin:0px auto}
-p.store_pop_img {float:left; position:absolute; bottom:0px; width:100px}
-p.store_pop_title {position:absolute; right:0px; top:0px; width:250px; height:50%; font:bold 18px/70px "Roboto"; color:#eee}
-p.store_pop_text {position:absolute; right:0px; top:50%; width:250px; height:50%; font:normal 16px "Roboto"; color:#ccc;}
-div#pop_close_btn {position:absolute; right:-50px; top:10%; width:20px; height:20px; color:#ccc}
-div#product_container {width:500px; height:500px}
-ul.product_list {width:100%; height:100%}
-ul.product_list li {float:left}
+.store_body {float:left; position:relative; left:0; top:0; width:75.25%; min-height:940px}
+#drag_icon {position:absolute; left:50%; bottom:10%; width:100px; height:100px; margin-left:50px; background:url("../images/drag_icon.gif")no-repeat}
+#store_pop_wrap {display:none; position:fixed; left:0px; bottom:-150px; z-index:20; width:100%; height:100px; background:#222}
+.store_pop_contents {position:relative; left:0px; top:0px; width:350px; height:100%; margin:0px auto}
+.store_pop_img {float:left; position:absolute; bottom:0px; width:100px}
+.store_pop_title {position:absolute; right:0px; top:0px; width:250px; height:50%; font:bold 18px/70px "Roboto"; color:#eee}
+.store_pop_text {position:absolute; right:0px; top:50%; width:250px; height:50%; font:normal 16px "Roboto"; color:#ccc;}
+#pop_close_btn {position:absolute; right:-50px; top:10%; width:20px; height:20px; color:#ccc}
+#product_container {width:500px; height:500px}
+.product_list {width:100%; height:100%}
+.product_list li {float:left}
 /* all product */
-section.all_product_wrap {float:left; width:100%; height:466px}
-ul.all_product_list {float:right; width:90%; margin:0px auto}
-ul.all_product_list li {float:left; width:200px; height:275px}
-p.beans_img {float:left; width:200px; height:200px; background:url("../images/wholebean.png")no-repeat center / cover}
-p.product_title {float:left; width:200px; height:50px; color:black}
-p.dripbag1_img {float:left; width:200px; height:200px; background:url("../images/dripbag00.png")no-repeat center / cover}
-p.dripbag2_img {width:200px; height:200px; float:left; background:url("../images/dripbag01.png")no-repeat center / cover}
-p.product_title a {display:block; width:100%; height:100%; font:normal 14px/25px "Noto Sans KR"; text-align:center; color:black;}
-p.product_text {float:left; width:200px; height:25px; margin-top:10px; color:black}
-p.product_text a {display:block; width:100%; height:100%; font:bold 14px/25px "Noto Sans KR"; text-align:center; color:black}
+.all_product_wrap {float:left; width:100%; min-height:940px}
+.all_product_list {float:right; width:90%; margin:0px auto}
+.all_product_list li {float:left; width:200px; height:275px}
+.beans_img {float:left; width:200px; height:200px; background:url("../images/wholebean.png")no-repeat center / cover}
+.product_title {float:left; width:200px; height:50px; color:black}
+.dripbag1_img {float:left; width:200px; height:200px; background:url("../images/dripbag00.png")no-repeat center / cover}
+.dripbag2_img {width:200px; height:200px; float:left; background:url("../images/dripbag01.png")no-repeat center / cover}
+.product_title a {display:block; width:100%; height:100%; font:normal 14px/25px "Noto Sans KR"; text-align:center; color:black;}
+.product_text {float:left; width:200px; height:25px; margin-top:10px; color:black}
+.product_text a {display:block; width:100%; height:100%; font:bold 14px/25px "Noto Sans KR"; text-align:center; color:black}
 /* 커뮤니티 */
-section#community_wrap {float:left; position:relative; left:0px; top:0px; width:100%; min-height:940px; margin-bottom:200px; background:white; border-top:solid 1px #eee; -webkit-box-sizing:border-box; box-sizing:border-box}
-section.community_body {position:absolute; right:0px; top:0px; width:75.25%; min-height:940px}
-div.news_box_wrap {overflow:hidden; width:80%; height:468px; margin:0 auto}
-ul.news_box {position:relative; left:0px; top:0px; width:125%; height:280px; border-top:3px solid #efc159; border-bottom:3px solid #efc159; -webkit-box-sizing:border-box; box-sizing:border-box}
-ul.news_box li {float:left; width:16.667%; height:100%}
-ul.news_box li:last-child {margin-right:0px}
-p.news_box_img {width:250px; height:200px; margin:0px auto; padding:20px 20px; -webkit-box-sizing:border-box; box-sizing:border-box}
-p.news_box_img img {width:100%}
-p.news_box_text {width:250px; height:100px; margin:0px auto; padding:0 20px; font:normal 14px/21px "Noto Sans KR"; color:black; -webkit-box-sizing:border-box; box-sizing:border-box}
-div.board_search_box {width:80%; height:40px; margin:0px auto}
-form#search_form {float:right; width:270px; height:20px}
-input.search_input {width:200px; height:25px; outline:none}
-input.search_btn {position:relative; left:0px; top:1px; width:50px; height:25px}
-table.notice_board {width:80%; margin:0px auto; border-spacing:0px; border-collapse:collapse}
-table.notice_board tr {height:40px}
-table.notice_board th {height:40px; border-bottom:1px solid #ccc; font:normal 14px/40px "Noto Sans KR"; text-align:center; color:#383838}
-table.notice_board thead th {font-weight:bold; text-align:center; background:#efc159}
-table.notice_board td {height:40px; border-bottom:1px solid #ccc; font:normal 14px/40px "Noto Sans KR"; text-align:center; color:#383838}
-table.notice_board td a {font:normal 14px/40px "Noto Sans KR"; color:#383838}
+#community_wrap {float:left; position:relative; left:0px; top:0px; width:100%; min-height:940px; margin-bottom:200px; background:white; border-top:solid 1px #eee; -webkit-box-sizing:border-box; box-sizing:border-box}
+.community_body {position:absolute; right:0px; top:0px; width:75.25%; min-height:940px}
+.news_box_wrap {overflow:hidden; width:80%; height:468px; margin:0 auto}
+.news_box {position:relative; left:0px; top:0px; width:125%; height:280px; border-top:3px solid #efc159; border-bottom:3px solid #efc159; -webkit-box-sizing:border-box; box-sizing:border-box}
+.news_box li {float:left; width:16.667%; height:100%}
+.news_box li:last-child {margin-right:0px}
+.news_box_img {width:100%; height:200px; margin:0px auto; padding:20px 20px; -webkit-box-sizing:border-box; box-sizing:border-box}
+.news_box_img img {width:100%}
+.news_box_text {width:250px; height:100px; margin:0px auto; padding:0 20px; font:normal 14px/21px "Noto Sans KR"; color:black; -webkit-box-sizing:border-box; box-sizing:border-box}
+.board_search_box {width:80%; height:40px; margin:0px auto}
+#search_form {float:right; width:270px; height:20px}
+.search_input {width:200px; height:25px; outline:none}
+.search_btn {position:relative; left:0px; top:1px; width:50px; height:25px}
+.notice_board {width:80%; margin:0px auto; border-spacing:0px; border-collapse:collapse}
+.notice_board tr {height:40px}
+.notice_board th {height:40px; border-bottom:1px solid #ccc; font:normal 14px/40px "Noto Sans KR"; text-align:center; color:#383838}
+.notice_board thead th {font-weight:bold; text-align:center; background:#efc159}
+.notice_board td {height:40px; border-bottom:1px solid #ccc; font:normal 14px/40px "Noto Sans KR"; text-align:center; color:#383838}
+.notice_board td a {font:normal 14px/40px "Noto Sans KR"; color:#383838}
 .board_num {width:10%}
 .board_title {width:60%; text-indent:20px; text-align:left !important}
 .board_name {width:10%}
 .board_count {width:10%}
 .board_date {width:10%; border-right:0px}
-div#page_btn {float:left; width:100%; height:20px; margin-top:40px}
-ul.page_btn {width:45px; height:100%; margin:0 auto}
-ul.page_btn li {float:left; width:10px; margin-right:5px; text-align:center}
-ul.page_btn li a {font-size:14px; color:#383838}
-ul.page_btn li:last-child {margin-right:0px}
-div.preparing {width:786px; height:467px; margin:168px 200px; background:url("../images/preparing_bg00.jpg"); background-size:cover}
+#page_btn {float:left; width:100%; height:20px; margin-top:40px}
+.page_btn {width:45px; height:100%; margin:0 auto}
+.page_btn li {float:left; width:10px; margin-right:5px; text-align:center}
+.page_btn li a {font-size:14px; color:#383838}
+.page_btn li:last-child {margin-right:0px}
+.preparing {width:786px; height:467px; margin:168px 200px; background:url("../images/preparing_bg00.jpg"); background-size:cover}
 .preparing_text {width:100%; height:100px; padding-top:100px; font:bold 24px/36px "Noto Sans KR"; text-align:center; color:white}
 
 /* 푸터 시작 */
-footer#footer_wrap {float:left; width:100%; height:200px; background:black; opacity:0.9; -webkit-transition:0.3s ease; -o-transition:0.3s ease; transition:0.3s ease}
-footer#footer_wrap:hover {opacity:1}
-div.footer_inner {width:1200px; height:100%; margin:0px auto}
-section.footer_inner_top {float:left; width:100%; height:140px}
-ul.footer_list {width:100%; height:100%}
-ul.footer_list>li {float:left; width:25%; height:80%; margin-top:15px; padding-left:15px; font:bold 18px/27px "Sans Serif"; color:#eee; -webkit-box-sizing:border-box; box-sizing:border-box}
-ul.footer_sublist {width:100%; height:100%; margin-top:5px}
-ul.footer_sublist li {width:100%; height:22%}
-ul.footer_sublist li a {font:normal 14px/21px "Roboto"; color:#ccc}
-ul.footer_sns_list {width:100%; height:100%; margin-top:15px}
-ul.footer_sns_list li {float:left; width:35px; height:35px; margin-right:10px; border-radius:30px; background:#eee; text-align:center}
-ul.footer_sns_list li a {display:block; width:100%; height:100%}
-ul.footer_sns_list li i {font-size:24px; line-height:35px; color:black}
-section.footer_inner_bottom {float:left; width:100%; height:60px}
-p.footer_copy {float:left; width:74.5%; height:100%; margin-right:2%; font:normal 14px/60px "Roboto"; text-indent:15px; color:#bbb;}
-p.footer_logo {float:left; width:23.5%; height:100%}
-p.footer_logo img {width:175px; height:27px; line-height:60px}
+#footer_wrap {float:left; width:100%; height:200px; background:black; opacity:0.9; -webkit-transition:0.3s ease; -o-transition:0.3s ease; transition:0.3s ease}
+#footer_wrap:hover {opacity:1}
+.footer_inner {width:1200px; height:100%; margin:0px auto}
+.footer_inner_top {float:left; width:100%; height:140px}
+.footer_list {width:100%; height:100%}
+.footer_list>li {float:left; width:25%; height:80%; margin-top:15px; padding-left:15px; font:bold 18px/27px "Sans Serif"; color:#eee; -webkit-box-sizing:border-box; box-sizing:border-box}
+.footer_sublist {width:100%; height:100%; margin-top:5px}
+.footer_sublist li {width:100%; height:22%}
+.footer_sublist li a {font:normal 14px/21px "Roboto"; color:#ccc}
+.footer_sns_list {width:100%; height:100%; margin-top:15px}
+.footer_sns_list li {float:left; width:35px; height:35px; margin-right:10px; border-radius:30px; background:#eee; text-align:center}
+.footer_sns_list li a {display:block; width:100%; height:100%}
+.footer_sns_list li i {font-size:24px; line-height:35px; color:black}
+.footer_inner_bottom {float:left; width:100%; height:60px}
+.footer_copy {float:left; width:74.5%; height:100%; margin-right:2%; font:normal 14px/60px "Roboto"; text-indent:15px; color:#bbb;}
+.footer_logo {float:left; width:23.5%; height:100%}
+.footer_logo img {width:175px; height:27px; line-height:60px}
+
+@media screen and (max-width:1600px){
+  .color_title {margin-top:30px; font-size:18px; line-height:24px}
+  .color_text {font-size:18px; line-height:24px}
+  
+}
+
+@media screen and (max-width:1300px){
+  #header_inner {width:1000px}
+  .color_title {font-size:14px; line-height:21px}
+  .color_text {font-size:14px; line-height:21px}
+}
