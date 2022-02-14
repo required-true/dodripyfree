@@ -1,6 +1,6 @@
 ## 🔗 Demo
 
-[<img alt="데모 사이트 바로가기" src="/images/mockup-dodripyfree.png">](https://jaehyeokk.github.io/dodripyfree/)
+[<img alt="데모 사이트 바로가기" target="_blank" src="/images/mockup-dodripyfree.png">](https://jaehyeokk.github.io/dodripyfree/)
 
 <br />
 
